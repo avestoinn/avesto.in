@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping ext="session-journal" type="PLAIN_TEXT" />
+      <mapping pattern="markup" type="Python" />
+      <mapping ext="kv" type="Kivy" />
+    </extensionMap>
+  </component>
+</application>
