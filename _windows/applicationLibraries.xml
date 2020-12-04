@@ -1,5 +1,16 @@
 <application>
   <component name="libraryTable">
+    <library name="boba-extended" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_boba@1_dist_boba-extended.min.css" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_boba@1_dist_boba-extended.min.css" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="bulma" type="javaScript">
       <properties>
         <sourceFilesUrls>
@@ -8,6 +19,17 @@
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_bulma@0.9.1_css_bulma.css" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="w3" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.w3schools.com_w3css_4_w3.css" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.w3schools.com_w3css_4_w3.css" />
       </CLASSES>
       <SOURCES />
     </library>
