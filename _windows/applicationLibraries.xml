@@ -22,6 +22,19 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="semantic" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_semantic-ui@2.4.2_dist_semantic.css" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_semantic-ui@2.4.2_dist_semantic.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_semantic-ui@2.4.2_dist_semantic.css" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_semantic-ui@2.4.2_dist_semantic.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="w3" type="javaScript">
       <properties>
         <sourceFilesUrls>
