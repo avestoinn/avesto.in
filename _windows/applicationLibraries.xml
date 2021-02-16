@@ -51,6 +51,19 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="splide" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_@splidejs_splide@latest_dist_css_splide.min.css" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_@splidejs_splide@latest_dist_js_splide.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_@splidejs_splide@latest_dist_css_splide.min.css" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_@splidejs_splide@latest_dist_js_splide.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="uikit" type="javaScript">
       <properties>
         <sourceFilesUrls>
