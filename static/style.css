@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
 
 body {
+  box-sizing: border-box;
   background: black;
   color: white;
   font-family: 'Fira Sans Condensed', sans-serif;
