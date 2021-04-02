@@ -6,7 +6,7 @@ body {
   font-family: 'Fira Sans Condensed', sans-serif;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 2fr 2fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr 3fr 2fr;
   align-items: stretch;
   justify-items: center;
 }
@@ -26,9 +26,9 @@ body {
 }
 
 div.social-medias {
+  display: inline-block;
   margin-top: 10px;
-  grid-row: 4;
-  grid-column: 1/4;
+  justify-content: space-between;
 }
 
 a.sm-link {
