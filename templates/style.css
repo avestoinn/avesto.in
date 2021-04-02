@@ -12,6 +12,8 @@ body {
 }
 
 .logo {
+  width: 128px;
+  height: 128px;
   align-self: center;
   grid-column: 2/3;
   grid-row: 2;
