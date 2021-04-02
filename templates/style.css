@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
+
+body {
+  background: black;
+  color: white;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
+  align-items: stretch;
+  justify-items: center;
+}
+
+.logo {
+  align-self: center;
+  grid-column: 2/3;
+  grid-row: 2;
+}
+
+.info-card {
+  grid-column: 1/4;
+  grid-row: 3;
+  text-align: center;
+}
+
+div.social-medias {
+  margin-top: 10px;
+  grid-row: 4;
+  grid-column: 1/4;
+}
+
+a.sm-link {
+  margin: 10px;
+  border-radius: 6.5px;
+  padding: .8em 1em calc(.8em + 3px);
+  background: #35b729;
+  text-decoration: none;
+  color: white;
+  outline: none;
+  user-select: none;
+  transition: 0.5s;
+}
+
+a.sm-link:hover {
+  opacity: 60%;
+}
+
+p {
+  font-weight: italic;
+}
