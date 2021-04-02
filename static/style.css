@@ -35,7 +35,7 @@ div.social-medias {
 }
 
 a.sm-link {
-  height: 100%;
+  display: inline-block;
   margin: 10px;
   border-radius: 6.5px;
   padding: .8em 1em calc(.8em + 3px);
