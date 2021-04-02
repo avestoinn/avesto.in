@@ -5,6 +5,7 @@ body {
   color: white;
   font-family: 'Fira Sans Condensed', sans-serif;
   display: grid;
+  grid-auto-flow: row dense;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 2fr 2fr 3fr 2fr;
   align-items: stretch;
@@ -12,8 +13,8 @@ body {
 }
 
 .logo {
-  width: 128px;
-  height: 128px;
+  width: 162px;
+  height: 162px;
   align-self: center;
   grid-column: 2/3;
   grid-row: 2;
@@ -26,6 +27,7 @@ body {
 }
 
 div.social-medias {
+  display: flex;
   margin-top: 10px;
   grid-row: 4/5;
   grid-column: 1/4;
