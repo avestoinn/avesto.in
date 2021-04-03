@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-auto-flow: row dense;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr 0.6fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr 0.6fr 2fr;
   align-items: stretch;
   justify-items: center;
 }
@@ -37,8 +37,9 @@ div.social-medias {
 a.sm-link {
   display: inline-block;
   margin: 10px;
-  border-radius: 6.5px;
-  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 6px;
+  padding: 12px;
+  /* padding: .8em 1em calc(.8em + 3px); */
   background: #35b729;
   text-decoration: none;
   color: white;
@@ -47,7 +48,29 @@ a.sm-link {
   transition: 0.5s;
 }
 
+a.secondary-button {
+  user-select: none;
+  outline: none;
+  transition: 0.5s;
+  color: #35b729;
+  background-color: transparent;
+  padding: 12px;
+  /* padding: .8em 1em calc(.8em + 3px); */
+  border: 1px solid #35b729;
+  border-radius: 6px;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+;
+}
+
 a.sm-link:hover {
   opacity: 60%;
+}
+
+a.secondary-button:hover {
+  opacity: 60%;
+  background-color: #35b729;
+  color: white;
 }
 
