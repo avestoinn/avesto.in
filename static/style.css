@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-auto-flow: row dense;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr 0.6fr 2fr;
+  grid-template-rows: 1fr 2fr 1fr 0.6fr 1fr 1fr;
   align-items: stretch;
   justify-items: center;
 }
@@ -74,13 +74,22 @@ a.secondary-button:hover {
   color: white;
 }
 
+div.credentials {
+  display: flex;
+  margin-top: auto;
+  grid-row: 5;
+  grid-column: 1/4;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 div.social-medias {
-  margin-top: 15px;
   display: flex;
   align-items: center;
   align-content: space-around;
   justify-content: center;
-  grid-row: 5;
+  grid-row: 6;
   grid-column: 1/4;
 }
 
