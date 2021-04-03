@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 
-div.social-medias {
+div.actions {
   display: flex;
   margin-top: 10px;
   grid-row: 4;
@@ -74,3 +74,16 @@ a.secondary-button:hover {
   color: white;
 }
 
+div.social-medias {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  grid-row: 5;
+  grid-column: 1/4;
+}
+
+div.social-medias > a {
+  padding: 10px;
+}
