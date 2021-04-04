@@ -13,15 +13,30 @@ body {
   justify-items: center;
 }
 
+
+/* Границы и синее мигание при нажатии на ссылку в виде картинки */
+a > img {
+  outline: 0;
+  border: 0;
+}
+
+a > img:hover {
+  transition: 1s;
+  opacity: 20%;
+}
+
+
 .logo {
-  width: 162px;
-  height: 162px;
+  width: 200px;
+  height: 200px;
   align-self: center;
   grid-column: 2/3;
-  grid-row: 2;
+  grid-row: 1/4;
+  margin: 0;
 }
 
 .info-card {
+  margin: auto;
   grid-column: 1/4;
   grid-row: 3;
   text-align: center;
